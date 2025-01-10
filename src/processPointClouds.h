@@ -18,6 +18,8 @@
 #include <ctime>
 #include <chrono>
 #include "render/box.h"
+#include <boost/filesystem.hpp>
+
 
 template<typename PointT>
 class ProcessPointClouds {
